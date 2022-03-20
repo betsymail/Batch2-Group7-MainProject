@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="66" passed="58" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T15:13:01 GST" name="Suite" finished-at="2022-03-20T15:25:43 GST" duration-ms="761797">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T15:13:01 GST" name="TestClassHomePageLinks" finished-at="2022-03-20T15:13:45 GST" duration-ms="43274">
+      <class name="com.TrainerManagementSystem.scripts.TestClassHomePageLinks">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:01 GST" name="onSetup" finished-at="2022-03-20T15:13:44 GST" duration-ms="42235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="CheckPageTitleTCB2G70001()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:44 GST" name="CheckPageTitleTCB2G70001" finished-at="2022-03-20T15:13:44 GST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPageTitleTCB2G70001 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:44 GST" name="tearDown" finished-at="2022-03-20T15:13:44 GST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckPageTitleTCB2G70001 status=SUCCESS method=TestClassHomePageLinks.CheckPageTitleTCB2G70001()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="NavigateToLoginPageTCB2G70003()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:44 GST" name="NavigateToLoginPageTCB2G70003" finished-at="2022-03-20T15:13:44 GST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToLoginPageTCB2G70003 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:44 GST" name="tearDown" finished-at="2022-03-20T15:13:44 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToLoginPageTCB2G70003 status=SUCCESS method=TestClassHomePageLinks.NavigateToLoginPageTCB2G70003()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="NavigateToSignupPageTCB2G70004()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:44 GST" name="NavigateToSignupPageTCB2G70004" finished-at="2022-03-20T15:13:45 GST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSignupPageTCB2G70004 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:45 GST" name="tearDown" finished-at="2022-03-20T15:13:45 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToSignupPageTCB2G70004 status=SUCCESS method=TestClassHomePageLinks.NavigateToSignupPageTCB2G70004()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassHomePageLinks@7eac9008]" started-at="2022-03-20T15:13:45 GST" name="quitBrowser" finished-at="2022-03-20T15:13:45 GST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassHomePageLinks -->
+    </test> <!-- TestClassHomePageLinks -->
+    <test started-at="2022-03-20T15:13:01 GST" name="TestClassSocialMediaLinks" finished-at="2022-03-20T15:14:07 GST" duration-ms="65254">
+      <class name="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:01 GST" name="onSetup" finished-at="2022-03-20T15:13:44 GST" duration-ms="42887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method is-config="true" signature="ValidateSocialMediaLinksTCB2G70006()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:44 GST" name="ValidateSocialMediaLinksTCB2G70006" finished-at="2022-03-20T15:13:46 GST" depends-on-methods="com.TrainerManagementSystem.scripts.TestBase.onSetup" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSocialMediaLinksTCB2G70006 -->
+        <test-method signature="TCB2G70006_FaceBook()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:46 GST" name="TCB2G70006_FaceBook" finished-at="2022-03-20T15:13:50 GST" duration-ms="3467" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (690, 3138)
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jijos-Air.lan', ip: 'fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a42818f244e54d0ee2b77cd15337b6af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (690, 3138)
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jijos-Air.lan', ip: 'fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a42818f244e54d0ee2b77cd15337b6af
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.TrainerManagementSystem.pages.SocialMediaLinks.ClickFacebookLink(SocialMediaLinks.java:30)
+at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_FaceBook(TestClassSocialMediaLinks.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCB2G70006_FaceBook -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:50 GST" name="tearDown" finished-at="2022-03-20T15:13:52 GST" duration-ms="2060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TCB2G70006_FaceBook status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_FaceBook()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TCB2G70006_Instagram()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:52 GST" name="TCB2G70006_Instagram" finished-at="2022-03-20T15:13:58 GST" duration-ms="6130" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<https://trainermanagement.herokuapp.com/> but was:<https://www.instagram.com/?hl=en>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<https://trainermanagement.herokuapp.com/> but was:<https://www.instagram.com/?hl=en>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_Instagram(TestClassSocialMediaLinks.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCB2G70006_Instagram -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:58 GST" name="tearDown" finished-at="2022-03-20T15:13:59 GST" duration-ms="1242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TCB2G70006_Instagram status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_Instagram()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TCB2G70006_Twitter()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:13:59 GST" name="TCB2G70006_Twitter" finished-at="2022-03-20T15:14:05 GST" duration-ms="6096" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<https://trainermanagement.herokuapp.com/> but was:<https://twitter.com/?lang=en>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<https://trainermanagement.herokuapp.com/> but was:<https://twitter.com/?lang=en>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_Twitter(TestClassSocialMediaLinks.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCB2G70006_Twitter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:14:05 GST" name="tearDown" finished-at="2022-03-20T15:14:07 GST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TCB2G70006_Twitter status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_Twitter()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks@158a8276]" started-at="2022-03-20T15:14:07 GST" name="quitBrowser" finished-at="2022-03-20T15:14:07 GST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks -->
+    </test> <!-- TestClassSocialMediaLinks -->
+    <test started-at="2022-03-20T15:14:07 GST" name="TestClassAdminLogin" finished-at="2022-03-20T15:16:29 GST" duration-ms="142709">
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:14:07 GST" name="onSetup" finished-at="2022-03-20T15:14:46 GST" duration-ms="38990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyAdminLoginTCB2G70025()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:14:46 GST" name="VerifyAdminLoginTCB2G70025" finished-at="2022-03-20T15:15:21 GST" duration-ms="35172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminLoginTCB2G70025 -->
+        <test-method signature="VerifyLoginWithInvaidDatasTCB2G70026()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:15:21 GST" name="VerifyLoginWithInvaidDatasTCB2G70026" finished-at="2022-03-20T15:15:55 GST" duration-ms="34521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvaidDatasTCB2G70026 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:15:21 GST" name="tearDown" finished-at="2022-03-20T15:15:21 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAdminLoginTCB2G70025 status=SUCCESS method=TestClassAdminLogin.VerifyAdminLoginTCB2G70025()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:15:55 GST" name="tearDown" finished-at="2022-03-20T15:15:55 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithInvaidDatasTCB2G70026 status=SUCCESS method=TestClassAdminLogin.VerifyLoginWithInvaidDatasTCB2G70026()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginWithNodataTCB2G70029()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:15:55 GST" name="LoginWithNodataTCB2G70029" finished-at="2022-03-20T15:16:29 GST" duration-ms="33875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNodataTCB2G70029 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:16:29 GST" name="tearDown" finished-at="2022-03-20T15:16:29 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithNodataTCB2G70029 status=SUCCESS method=TestClassAdminLogin.LoginWithNodataTCB2G70029()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogin@2e377400]" started-at="2022-03-20T15:16:29 GST" name="quitBrowser" finished-at="2022-03-20T15:16:29 GST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAdminLogin -->
+    </test> <!-- TestClassAdminLogin -->
+    <test started-at="2022-03-20T15:16:29 GST" name="TestClassAdminApproval" finished-at="2022-03-20T15:17:50 GST" duration-ms="80504">
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminApproval">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:16:29 GST" name="onSetup" finished-at="2022-03-20T15:17:08 GST" duration-ms="38320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:08 GST" name="login" finished-at="2022-03-20T15:17:42 GST" depends-on-methods="com.TrainerManagementSystem.scripts.TestBase.onSetup" duration-ms="34279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VerifyContentsTableTCB2G70030()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:42 GST" name="VerifyContentsTableTCB2G70030" finished-at="2022-03-20T15:17:48 GST" duration-ms="5842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContentsTableTCB2G70030 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="tearDown" finished-at="2022-03-20T15:17:48 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyContentsTableTCB2G70030 status=SUCCESS method=TestClassAdminApproval.VerifyContentsTableTCB2G70030()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyFooterDisplayTCB2G70032()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="VerifyFooterDisplayTCB2G70032" finished-at="2022-03-20T15:17:48 GST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFooterDisplayTCB2G70032 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="tearDown" finished-at="2022-03-20T15:17:48 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFooterDisplayTCB2G70032 status=SUCCESS method=TestClassAdminApproval.VerifyFooterDisplayTCB2G70032()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyContentsTableTCB2G70033()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="VerifyContentsTableTCB2G70033" finished-at="2022-03-20T15:17:48 GST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContentsTableTCB2G70033 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="tearDown" finished-at="2022-03-20T15:17:48 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyContentsTableTCB2G70033 status=SUCCESS method=TestClassAdminApproval.VerifyContentsTableTCB2G70033()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyApproveButtonTCB2G70035()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:48 GST" name="VerifyApproveButtonTCB2G70035" finished-at="2022-03-20T15:17:49 GST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApproveButtonTCB2G70035 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:49 GST" name="tearDown" finished-at="2022-03-20T15:17:49 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyApproveButtonTCB2G70035 status=SUCCESS method=TestClassAdminApproval.VerifyApproveButtonTCB2G70035()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyApproveWithoutEmpTypeTCB2G70034()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:49 GST" name="VerifyApproveWithoutEmpTypeTCB2G70034" finished-at="2022-03-20T15:17:49 GST" duration-ms="309" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at com.TrainerManagementSystem.scripts.TestClassAdminApproval.VerifyApproveWithoutEmpTypeTCB2G70034(TestClassAdminApproval.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApproveWithoutEmpTypeTCB2G70034 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:49 GST" name="tearDown" finished-at="2022-03-20T15:17:49 GST" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyApproveWithoutEmpTypeTCB2G70034 status=FAILURE method=TestClassAdminApproval.VerifyApproveWithoutEmpTypeTCB2G70034()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyRejectButtonTCB2G70037()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:49 GST" name="VerifyRejectButtonTCB2G70037" finished-at="2022-03-20T15:17:50 GST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRejectButtonTCB2G70037 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:50 GST" name="tearDown" finished-at="2022-03-20T15:17:50 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyRejectButtonTCB2G70037 status=SUCCESS method=TestClassAdminApproval.VerifyRejectButtonTCB2G70037()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyPageScrollingTCB2G70031()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:50 GST" name="VerifyPageScrollingTCB2G70031" finished-at="2022-03-20T15:17:50 GST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageScrollingTCB2G70031 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:50 GST" name="tearDown" finished-at="2022-03-20T15:17:50 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPageScrollingTCB2G70031 status=SUCCESS method=TestClassAdminApproval.VerifyPageScrollingTCB2G70031()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminApproval@38102d01]" started-at="2022-03-20T15:17:50 GST" name="quitBrowser" finished-at="2022-03-20T15:17:50 GST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAdminApproval -->
+    </test> <!-- TestClassAdminApproval -->
+    <test started-at="2022-03-20T15:17:50 GST" name="TestClassAllocate" finished-at="2022-03-20T15:19:37 GST" duration-ms="106834">
+      <class name="com.TrainerManagementSystem.scripts.TestClassAllocate">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:17:50 GST" name="onSetup" finished-at="2022-03-20T15:18:29 GST" duration-ms="38531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:18:29 GST" name="login" finished-at="2022-03-20T15:19:03 GST" depends-on-methods="com.TrainerManagementSystem.scripts.TestBase.onSetup" duration-ms="33948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="VerifySearchBoxTCB2G70039()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:03 GST" name="VerifySearchBoxTCB2G70039" finished-at="2022-03-20T15:19:36 GST" duration-ms="33688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchBoxTCB2G70039 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:36 GST" name="tearDown" finished-at="2022-03-20T15:19:36 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearchBoxTCB2G70039 status=SUCCESS method=TestClassAllocate.VerifySearchBoxTCB2G70039()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifySearchDetailsTCB2G70040()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:36 GST" name="VerifySearchDetailsTCB2G70040" finished-at="2022-03-20T15:19:36 GST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchDetailsTCB2G70040 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:36 GST" name="tearDown" finished-at="2022-03-20T15:19:36 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearchDetailsTCB2G70040 status=SUCCESS method=TestClassAllocate.VerifySearchDetailsTCB2G70040()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifySearchDetailsbyIdTCB2G70042()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:36 GST" name="VerifySearchDetailsbyIdTCB2G70042" finished-at="2022-03-20T15:19:37 GST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchDetailsbyIdTCB2G70042 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:37 GST" name="tearDown" finished-at="2022-03-20T15:19:37 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearchDetailsbyIdTCB2G70042 status=SUCCESS method=TestClassAllocate.VerifySearchDetailsbyIdTCB2G70042()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocate@68e5eea7]" started-at="2022-03-20T15:19:37 GST" name="quitBrowser" finished-at="2022-03-20T15:19:37 GST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAllocate -->
+    </test> <!-- TestClassAllocate -->
+    <test started-at="2022-03-20T15:19:37 GST" name="TestClassAllocateTrainer" finished-at="2022-03-20T15:20:32 GST" duration-ms="54785">
+      <class name="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:19:37 GST" name="onSetup" finished-at="2022-03-20T15:20:16 GST" duration-ms="38984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyAllocateButtonTCB2G70043()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:16 GST" name="VerifyAllocateButtonTCB2G70043" finished-at="2022-03-20T15:20:21 GST" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateButtonTCB2G70043 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:21 GST" name="tearDown" finished-at="2022-03-20T15:20:21 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateButtonTCB2G70043 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateButtonTCB2G70043()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageTCB2G70044()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:21 GST" name="VerifyAllocateTrainerPageTCB2G70044" finished-at="2022-03-20T15:20:22 GST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageTCB2G70044 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:22 GST" name="tearDown" finished-at="2022-03-20T15:20:22 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageTCB2G70044 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageTCB2G70044()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageCourseTCB2G70045()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:22 GST" name="VerifyAllocateTrainerPageCourseTCB2G70045" finished-at="2022-03-20T15:20:22 GST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageCourseTCB2G70045 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:22 GST" name="tearDown" finished-at="2022-03-20T15:20:22 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageCourseTCB2G70045 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageCourseTCB2G70045()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageBatchIDTCB2G70046()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:22 GST" name="VerifyAllocateTrainerPageBatchIDTCB2G70046" finished-at="2022-03-20T15:20:23 GST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageBatchIDTCB2G70046 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="tearDown" finished-at="2022-03-20T15:20:23 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageBatchIDTCB2G70046 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageBatchIDTCB2G70046()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageTimeTCB2G70047A()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="VerifyAllocateTrainerPageTimeTCB2G70047A" finished-at="2022-03-20T15:20:23 GST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageTimeTCB2G70047A -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="tearDown" finished-at="2022-03-20T15:20:23 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageTimeTCB2G70047A status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageTimeTCB2G70047A()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageTime2TCB2G70047B()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="VerifyAllocateTrainerPageTime2TCB2G70047B" finished-at="2022-03-20T15:20:23 GST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageTime2TCB2G70047B -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="tearDown" finished-at="2022-03-20T15:20:23 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageTime2TCB2G70047B status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageTime2TCB2G70047B()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageStartAndEndDateTCB2G70048()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:23 GST" name="VerifyAllocateTrainerPageStartAndEndDateTCB2G70048" finished-at="2022-03-20T15:20:24 GST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageStartAndEndDateTCB2G70048 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:24 GST" name="tearDown" finished-at="2022-03-20T15:20:24 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageStartAndEndDateTCB2G70048 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageStartAndEndDateTCB2G70048()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyAllocateTrainerPageMeetingLinkTCB2G70049()[pri:8, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:24 GST" name="VerifyAllocateTrainerPageMeetingLinkTCB2G70049" finished-at="2022-03-20T15:20:31 GST" duration-ms="7657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllocateTrainerPageMeetingLinkTCB2G70049 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:31 GST" name="quitBrowser" finished-at="2022-03-20T15:20:32 GST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c]" started-at="2022-03-20T15:20:31 GST" name="tearDown" finished-at="2022-03-20T15:20:31 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllocateTrainerPageMeetingLinkTCB2G70049 status=SUCCESS method=TestClassAllocateTrainer.VerifyAllocateTrainerPageMeetingLinkTCB2G70049()[pri:8, instance:com.TrainerManagementSystem.scripts.TestClassAllocateTrainer@d21a74c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAllocateTrainer -->
+    </test> <!-- TestClassAllocateTrainer -->
+    <test started-at="2022-03-20T15:13:45 GST" name="TestClassSignup" finished-at="2022-03-20T15:20:54 GST" duration-ms="429102">
+      <class name="com.TrainerManagementSystem.scripts.TestClassSignup">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:13:45 GST" name="onSetup" finished-at="2022-03-20T15:14:23 GST" duration-ms="38369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifySignUPMenuTCB2G70011()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:14:23 GST" name="VerifySignUPMenuTCB2G70011" finished-at="2022-03-20T15:14:24 GST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUPMenuTCB2G70011 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:14:24 GST" name="tearDown" finished-at="2022-03-20T15:14:24 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignUPMenuTCB2G70011 status=SUCCESS method=TestClassSignup.VerifySignUPMenuTCB2G70011()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifySignUpTCB2G70012()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:14:24 GST" name="VerifySignUpTCB2G70012" finished-at="2022-03-20T15:14:33 GST" duration-ms="9129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUpTCB2G70012 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:14:33 GST" name="tearDown" finished-at="2022-03-20T15:14:33 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignUpTCB2G70012 status=SUCCESS method=TestClassSignup.VerifySignUpTCB2G70012()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifySignUpwithoutCourseTCB2G70023()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:14:33 GST" name="VerifySignUpwithoutCourseTCB2G70023" finished-at="2022-03-20T15:15:10 GST" duration-ms="37132" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at com.TrainerManagementSystem.scripts.TestClassSignup.VerifySignUpwithoutCourseTCB2G70023(TestClassSignup.java:269)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUpwithoutCourseTCB2G70023 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:15:10 GST" name="tearDown" finished-at="2022-03-20T15:15:10 GST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignUpwithoutCourseTCB2G70023 status=FAILURE method=TestClassSignup.VerifySignUpwithoutCourseTCB2G70023()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyValidNameTCB2G70021()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:15:10 GST" name="VerifyValidNameTCB2G70021" finished-at="2022-03-20T15:15:44 GST" duration-ms="33924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidNameTCB2G70021 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:15:44 GST" name="tearDown" finished-at="2022-03-20T15:15:44 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyValidNameTCB2G70021 status=SUCCESS method=TestClassSignup.VerifyValidNameTCB2G70021()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyInvalidNameTCB2G70022()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:15:44 GST" name="VerifyInvalidNameTCB2G70022" finished-at="2022-03-20T15:16:18 GST" duration-ms="33986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidNameTCB2G70022 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:16:18 GST" name="tearDown" finished-at="2022-03-20T15:16:18 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInvalidNameTCB2G70022 status=SUCCESS method=TestClassSignup.VerifyInvalidNameTCB2G70022()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyInvalidPhoneUsingStringsTCB2G70016()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:16:18 GST" name="VerifyInvalidPhoneUsingStringsTCB2G70016" finished-at="2022-03-20T15:16:52 GST" duration-ms="34154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidPhoneUsingStringsTCB2G70016 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:16:52 GST" name="tearDown" finished-at="2022-03-20T15:16:52 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInvalidPhoneUsingStringsTCB2G70016 status=SUCCESS method=TestClassSignup.VerifyInvalidPhoneUsingStringsTCB2G70016()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyInvalidPhoneTCB2G70015()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:16:52 GST" name="VerifyInvalidPhoneTCB2G70015" finished-at="2022-03-20T15:17:27 GST" duration-ms="34193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidPhoneTCB2G70015 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:17:27 GST" name="tearDown" finished-at="2022-03-20T15:17:27 GST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInvalidPhoneTCB2G70015 status=SUCCESS method=TestClassSignup.VerifyInvalidPhoneTCB2G70015()[pri:7, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyInvalidEmailTCB2G70020()[pri:8, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:17:27 GST" name="VerifyInvalidEmailTCB2G70020" finished-at="2022-03-20T15:18:01 GST" duration-ms="34068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidEmailTCB2G70020 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:18:01 GST" name="tearDown" finished-at="2022-03-20T15:18:01 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInvalidEmailTCB2G70020 status=SUCCESS method=TestClassSignup.VerifyInvalidEmailTCB2G70020()[pri:8, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyValidEmailTCB2G70019()[pri:9, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:18:01 GST" name="VerifyValidEmailTCB2G70019" finished-at="2022-03-20T15:18:35 GST" duration-ms="33931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidEmailTCB2G70019 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:18:35 GST" name="tearDown" finished-at="2022-03-20T15:18:35 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyValidEmailTCB2G70019 status=SUCCESS method=TestClassSignup.VerifyValidEmailTCB2G70019()[pri:9, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyPasParameterTCB2G70086()[pri:10, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:18:35 GST" name="VerifyPasParameterTCB2G70086" finished-at="2022-03-20T15:19:11 GST" duration-ms="35932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPasParameterTCB2G70086 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:19:11 GST" name="tearDown" finished-at="2022-03-20T15:19:11 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPasParameterTCB2G70086 status=SUCCESS method=TestClassSignup.VerifyPasParameterTCB2G70086()[pri:10, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyEnteredSamePassTCB2G70017()[pri:11, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:19:11 GST" name="VerifyEnteredSamePassTCB2G70017" finished-at="2022-03-20T15:19:45 GST" duration-ms="34077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnteredSamePassTCB2G70017 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:19:45 GST" name="tearDown" finished-at="2022-03-20T15:19:45 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEnteredSamePassTCB2G70017 status=SUCCESS method=TestClassSignup.VerifyEnteredSamePassTCB2G70017()[pri:11, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyEnteredDiffPassTCB2G70018()[pri:12, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:19:45 GST" name="VerifyEnteredDiffPassTCB2G70018" finished-at="2022-03-20T15:20:19 GST" duration-ms="34306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnteredDiffPassTCB2G70018 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:20:19 GST" name="tearDown" finished-at="2022-03-20T15:20:19 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEnteredDiffPassTCB2G70018 status=SUCCESS method=TestClassSignup.VerifyEnteredDiffPassTCB2G70018()[pri:12, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ListCourseTCB2G70013()[pri:13, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:20:19 GST" name="ListCourseTCB2G70013" finished-at="2022-03-20T15:20:53 GST" duration-ms="33973" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<4> but was:<6>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<4> but was:<6>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:468)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:318)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:328)
+at com.TrainerManagementSystem.scripts.TestClassSignup.ListCourseTCB2G70013(TestClassSignup.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListCourseTCB2G70013 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:20:53 GST" name="tearDown" finished-at="2022-03-20T15:20:54 GST" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ListCourseTCB2G70013 status=FAILURE method=TestClassSignup.ListCourseTCB2G70013()[pri:13, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassSignup@4c39bec8]" started-at="2022-03-20T15:20:54 GST" name="quitBrowser" finished-at="2022-03-20T15:20:54 GST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassSignup -->
+    </test> <!-- TestClassSignup -->
+    <test started-at="2022-03-20T15:20:54 GST" name="TestClassAdminLogout" finished-at="2022-03-20T15:21:53 GST" duration-ms="58722">
+      <class name="com.TrainerManagementSystem.scripts.TestClassAdminLogout">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:20:54 GST" name="onSetup" finished-at="2022-03-20T15:21:32 GST" duration-ms="37899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="ValidateLogOutTCB2G70057()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:21:32 GST" name="ValidateLogOutTCB2G70057" finished-at="2022-03-20T15:21:38 GST" duration-ms="6571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogOutTCB2G70057 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:21:38 GST" name="tearDown" finished-at="2022-03-20T15:21:38 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateLogOutTCB2G70057 status=SUCCESS method=TestClassAdminLogout.ValidateLogOutTCB2G70057()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ValidateLoginAndOutAfterLogoutTCB2G70058()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:21:38 GST" name="ValidateLoginAndOutAfterLogoutTCB2G70058" finished-at="2022-03-20T15:21:52 GST" duration-ms="13990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginAndOutAfterLogoutTCB2G70058 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:21:52 GST" name="tearDown" finished-at="2022-03-20T15:21:52 GST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateLoginAndOutAfterLogoutTCB2G70058 status=SUCCESS method=TestClassAdminLogout.ValidateLoginAndOutAfterLogoutTCB2G70058()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassAdminLogout@2118cddf]" started-at="2022-03-20T15:21:52 GST" name="quitBrowser" finished-at="2022-03-20T15:21:53 GST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassAdminLogout -->
+    </test> <!-- TestClassAdminLogout -->
+    <test started-at="2022-03-20T15:20:32 GST" name="TestClassViewAllocation" finished-at="2022-03-20T15:23:15 GST" duration-ms="163425">
+      <class name="com.TrainerManagementSystem.scripts.TestClassViewAllocation">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:20:32 GST" name="onSetup" finished-at="2022-03-20T15:21:10 GST" duration-ms="38084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyAlbhaTCB2G70051()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:21:10 GST" name="VerifyAlbhaTCB2G70051" finished-at="2022-03-20T15:21:11 GST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAlbhaTCB2G70051 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:21:11 GST" name="tearDown" finished-at="2022-03-20T15:21:11 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAlbhaTCB2G70051 status=SUCCESS method=TestClassViewAllocation.VerifyAlbhaTCB2G70051()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyNumTCB2G70052()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:21:11 GST" name="VerifyNumTCB2G70052" finished-at="2022-03-20T15:22:00 GST" duration-ms="49131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNumTCB2G70052 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:22:00 GST" name="tearDown" finished-at="2022-03-20T15:22:00 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNumTCB2G70052 status=SUCCESS method=TestClassViewAllocation.VerifyNumTCB2G70052()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyCharTCB2G70053()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:22:00 GST" name="VerifyCharTCB2G70053" finished-at="2022-03-20T15:22:37 GST" duration-ms="36538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCharTCB2G70053 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:22:37 GST" name="tearDown" finished-at="2022-03-20T15:22:37 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCharTCB2G70053 status=SUCCESS method=TestClassViewAllocation.VerifyCharTCB2G70053()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyDataTCB2G70054()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:22:37 GST" name="VerifyDataTCB2G70054" finished-at="2022-03-20T15:23:12 GST" duration-ms="35162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDataTCB2G70054 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:12 GST" name="tearDown" finished-at="2022-03-20T15:23:12 GST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDataTCB2G70054 status=SUCCESS method=TestClassViewAllocation.VerifyDataTCB2G70054()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyScrollingUsingMouseTCB2G70055()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:12 GST" name="VerifyScrollingUsingMouseTCB2G70055" finished-at="2022-03-20T15:23:12 GST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollingUsingMouseTCB2G70055 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:12 GST" name="tearDown" finished-at="2022-03-20T15:23:12 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyScrollingUsingMouseTCB2G70055 status=SUCCESS method=TestClassViewAllocation.VerifyScrollingUsingMouseTCB2G70055()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyScrollingUsingKeyboardTCB2G70056()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:12 GST" name="VerifyScrollingUsingKeyboardTCB2G70056" finished-at="2022-03-20T15:23:15 GST" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollingUsingKeyboardTCB2G70056 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:15 GST" name="tearDown" finished-at="2022-03-20T15:23:15 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyScrollingUsingKeyboardTCB2G70056 status=SUCCESS method=TestClassViewAllocation.VerifyScrollingUsingKeyboardTCB2G70056()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassViewAllocation@a1cdc6d]" started-at="2022-03-20T15:23:15 GST" name="quitBrowser" finished-at="2022-03-20T15:23:15 GST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassViewAllocation -->
+    </test> <!-- TestClassViewAllocation -->
+    <test started-at="2022-03-20T15:21:53 GST" name="TestClassTrainerLogin" finished-at="2022-03-20T15:23:23 GST" duration-ms="90034">
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:21:53 GST" name="onSetup" finished-at="2022-03-20T15:22:32 GST" duration-ms="39362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:32 GST" name="start" finished-at="2022-03-20T15:22:32 GST" depends-on-methods="com.TrainerManagementSystem.scripts.TestBase.onSetup" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="DisplayFooterTCB2G70067()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:32 GST" name="DisplayFooterTCB2G70067" finished-at="2022-03-20T15:22:34 GST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayFooterTCB2G70067 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:34 GST" name="tearDown" finished-at="2022-03-20T15:22:34 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DisplayFooterTCB2G70067 status=SUCCESS method=TestClassTrainerLogin.DisplayFooterTCB2G70067()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginWithNoDataTCB2G70063()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:34 GST" name="LoginWithNoDataTCB2G70063" finished-at="2022-03-20T15:22:36 GST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNoDataTCB2G70063 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:36 GST" name="tearDown" finished-at="2022-03-20T15:22:36 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithNoDataTCB2G70063 status=SUCCESS method=TestClassTrainerLogin.LoginWithNoDataTCB2G70063()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="NavigateToSignupPageTCB2G70066()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:36 GST" name="NavigateToSignupPageTCB2G70066" finished-at="2022-03-20T15:22:39 GST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSignupPageTCB2G70066 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:39 GST" name="tearDown" finished-at="2022-03-20T15:22:39 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToSignupPageTCB2G70066 status=SUCCESS method=TestClassTrainerLogin.NavigateToSignupPageTCB2G70066()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="NavigateToHomePageTCB2G70065()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:22:39 GST" name="NavigateToHomePageTCB2G70065" finished-at="2022-03-20T15:23:14 GST" duration-ms="35851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePageTCB2G70065 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:14 GST" name="tearDown" finished-at="2022-03-20T15:23:14 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToHomePageTCB2G70065 status=SUCCESS method=TestClassTrainerLogin.NavigateToHomePageTCB2G70065()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InvalidLoginCredentialsTCB2G70060()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:14 GST" name="InvalidLoginCredentialsTCB2G70060" finished-at="2022-03-20T15:23:21 GST" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginCredentialsTCB2G70060 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:21 GST" name="tearDown" finished-at="2022-03-20T15:23:21 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLoginCredentialsTCB2G70060 status=SUCCESS method=TestClassTrainerLogin.InvalidLoginCredentialsTCB2G70060()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginWithValidCredentialsTCB2G70062()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:21 GST" name="LoginWithValidCredentialsTCB2G70062" finished-at="2022-03-20T15:23:22 GST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentialsTCB2G70062 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:22 GST" name="tearDown" finished-at="2022-03-20T15:23:22 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithValidCredentialsTCB2G70062 status=SUCCESS method=TestClassTrainerLogin.LoginWithValidCredentialsTCB2G70062()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogin@2b4bac49]" started-at="2022-03-20T15:23:22 GST" name="quitBrowser" finished-at="2022-03-20T15:23:23 GST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassTrainerLogin -->
+    </test> <!-- TestClassTrainerLogin -->
+    <test started-at="2022-03-20T15:23:15 GST" name="TestClassTrainerInformation" finished-at="2022-03-20T15:25:01 GST" duration-ms="105507">
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:15 GST" name="onSetup" finished-at="2022-03-20T15:23:54 GST" duration-ms="39072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyTrainerInformationTCB2G70068()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:54 GST" name="VerifyTrainerInformationTCB2G70068" finished-at="2022-03-20T15:23:55 GST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTrainerInformationTCB2G70068 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:55 GST" name="tearDown" finished-at="2022-03-20T15:23:55 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTrainerInformationTCB2G70068 status=SUCCESS method=TestClassTrainerInformationWindow.VerifyTrainerInformationTCB2G70068()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyeditbuttonTCB2G70069()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:55 GST" name="VerifyeditbuttonTCB2G70069" finished-at="2022-03-20T15:23:56 GST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyeditbuttonTCB2G70069 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:56 GST" name="tearDown" finished-at="2022-03-20T15:23:56 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyeditbuttonTCB2G70069 status=SUCCESS method=TestClassTrainerInformationWindow.VerifyeditbuttonTCB2G70069()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyPhotoDisplayTCB2G70070()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:23:56 GST" name="VerifyPhotoDisplayTCB2G70070" finished-at="2022-03-20T15:24:59 GST" duration-ms="63842" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='profile_img']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jijos-Air.lan', ip: 'fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc022e514973fca00d02d56987f0f049
+*** Element info: {Using=xpath, value=//img[@class='profile_img']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='profile_img']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jijos-Air.lan', ip: 'fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc022e514973fca00d02d56987f0f049
+*** Element info: {Using=xpath, value=//img[@class='profile_img']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow.VerifyPhotoDisplayTCB2G70070(TestClassTrainerInformationWindow.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPhotoDisplayTCB2G70070 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:24:59 GST" name="tearDown" finished-at="2022-03-20T15:25:00 GST" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPhotoDisplayTCB2G70070 status=FAILURE method=TestClassTrainerInformationWindow.VerifyPhotoDisplayTCB2G70070()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow@55740540]" started-at="2022-03-20T15:25:00 GST" name="quitBrowser" finished-at="2022-03-20T15:25:01 GST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow -->
+    </test> <!-- TestClassTrainerInformation -->
+    <test started-at="2022-03-20T15:23:23 GST" name="TestClassEditTrainerProfile" finished-at="2022-03-20T15:25:20 GST" duration-ms="117457">
+      <class name="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:23:23 GST" name="onSetup" finished-at="2022-03-20T15:24:01 GST" duration-ms="37943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method is-config="true" signature="TrainerLogin()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:01 GST" name="TrainerLogin" finished-at="2022-03-20T15:24:01 GST" depends-on-methods="com.TrainerManagementSystem.scripts.TestBase.onSetup" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainerLogin -->
+        <test-method signature="VerifyEditPersonalDetailsPageTCB2G70071A()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:01 GST" name="VerifyEditPersonalDetailsPageTCB2G70071A" finished-at="2022-03-20T15:24:02 GST" duration-ms="641" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:468)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:230)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:240)
+at com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile.VerifyEditPersonalDetailsPageTCB2G70071A(TestClassEditTrainerProfile.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditPersonalDetailsPageTCB2G70071A -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:02 GST" name="tearDown" finished-at="2022-03-20T15:24:02 GST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEditPersonalDetailsPageTCB2G70071A status=FAILURE method=TestClassEditTrainerProfile.VerifyEditPersonalDetailsPageTCB2G70071A()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyEditPersonalDetailsPageTCB2G70071B()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:02 GST" name="VerifyEditPersonalDetailsPageTCB2G70071B" finished-at="2022-03-20T15:24:42 GST" duration-ms="39471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditPersonalDetailsPageTCB2G70071B -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:42 GST" name="tearDown" finished-at="2022-03-20T15:24:42 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEditPersonalDetailsPageTCB2G70071B status=SUCCESS method=TestClassEditTrainerProfile.VerifyEditPersonalDetailsPageTCB2G70071B()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyEditPersonalDetailsPhotoTCB2G70072()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:42 GST" name="VerifyEditPersonalDetailsPhotoTCB2G70072" finished-at="2022-03-20T15:24:45 GST" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditPersonalDetailsPhotoTCB2G70072 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:45 GST" name="tearDown" finished-at="2022-03-20T15:24:45 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyEditPersonalDetailsPhotoTCB2G70072 status=SUCCESS method=TestClassEditTrainerProfile.VerifyEditPersonalDetailsPhotoTCB2G70072()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyTrainerAllocationDetailsPageTCB2G70074()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:24:45 GST" name="VerifyTrainerAllocationDetailsPageTCB2G70074" finished-at="2022-03-20T15:25:20 GST" duration-ms="34454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTrainerAllocationDetailsPageTCB2G70074 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="tearDown" finished-at="2022-03-20T15:25:20 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTrainerAllocationDetailsPageTCB2G70074 status=SUCCESS method=TestClassEditTrainerProfile.VerifyTrainerAllocationDetailsPageTCB2G70074()[pri:3, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyScrollbarTCB2G70078()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="VerifyScrollbarTCB2G70078" finished-at="2022-03-20T15:25:20 GST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollbarTCB2G70078 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="tearDown" finished-at="2022-03-20T15:25:20 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyScrollbarTCB2G70078 status=SUCCESS method=TestClassEditTrainerProfile.VerifyScrollbarTCB2G70078()[pri:4, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyScrollbarTCB2G70080()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="VerifyScrollbarTCB2G70080" finished-at="2022-03-20T15:25:20 GST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollbarTCB2G70080 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="tearDown" finished-at="2022-03-20T15:25:20 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyScrollbarTCB2G70080 status=SUCCESS method=TestClassEditTrainerProfile.VerifyScrollbarTCB2G70080()[pri:5, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyFooterTCB2G70081()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="VerifyFooterTCB2G70081" finished-at="2022-03-20T15:25:20 GST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFooterTCB2G70081 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="tearDown" finished-at="2022-03-20T15:25:20 GST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFooterTCB2G70081 status=SUCCESS method=TestClassEditTrainerProfile.VerifyFooterTCB2G70081()[pri:6, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile@36b4fe2a]" started-at="2022-03-20T15:25:20 GST" name="quitBrowser" finished-at="2022-03-20T15:25:20 GST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile -->
+    </test> <!-- TestClassEditTrainerProfile -->
+    <test started-at="2022-03-20T15:25:01 GST" name="TestClassTrainerLogout" finished-at="2022-03-20T15:25:43 GST" duration-ms="42622">
+      <class name="com.TrainerManagementSystem.scripts.TestClassTrainerLogout">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:01 GST" name="onSetup" finished-at="2022-03-20T15:25:39 GST" duration-ms="38836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="VerifyTrainerLogoutTCB2G70082()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:39 GST" name="VerifyTrainerLogoutTCB2G70082" finished-at="2022-03-20T15:25:41 GST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTrainerLogoutTCB2G70082 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:41 GST" name="tearDown" finished-at="2022-03-20T15:25:41 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTrainerLogoutTCB2G70082 status=SUCCESS method=TestClassTrainerLogout.VerifyTrainerLogoutTCB2G70082()[pri:1, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyTrainerLoginAfterLoginTCB2G70085()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:41 GST" name="VerifyTrainerLoginAfterLoginTCB2G70085" finished-at="2022-03-20T15:25:43 GST" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTrainerLoginAfterLoginTCB2G70085 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:43 GST" name="tearDown" finished-at="2022-03-20T15:25:43 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTrainerLoginAfterLoginTCB2G70085 status=SUCCESS method=TestClassTrainerLogout.VerifyTrainerLoginAfterLoginTCB2G70085()[pri:2, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TrainerManagementSystem.scripts.TestClassTrainerLogout@3cc1435c]" started-at="2022-03-20T15:25:43 GST" name="quitBrowser" finished-at="2022-03-20T15:25:43 GST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TrainerManagementSystem.scripts.TestClassTrainerLogout -->
+    </test> <!-- TestClassTrainerLogout -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">13 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">66 methods, 8 failed,   58 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="ListCourseTCB2G70013">ListCourseTCB2G70013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks" class="method navigator-link" hash-for-method="TCB2G70006_FaceBook">TCB2G70006_FaceBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks" class="method navigator-link" hash-for-method="TCB2G70006_Instagram">TCB2G70006_Instagram</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks" class="method navigator-link" hash-for-method="TCB2G70006_Twitter">TCB2G70006_Twitter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyApproveWithoutEmpTypeTCB2G70034">VerifyApproveWithoutEmpTypeTCB2G70034</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyEditPersonalDetailsPageTCB2G70071A">VerifyEditPersonalDetailsPageTCB2G70071A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow" class="method navigator-link" hash-for-method="VerifyPhotoDisplayTCB2G70070">VerifyPhotoDisplayTCB2G70070</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifySignUpwithoutCourseTCB2G70023">VerifySignUpwithoutCourseTCB2G70023</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassHomePageLinks" class="method navigator-link" hash-for-method="CheckPageTitleTCB2G70001">CheckPageTitleTCB2G70001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="DisplayFooterTCB2G70067">DisplayFooterTCB2G70067</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="InvalidLoginCredentialsTCB2G70060">InvalidLoginCredentialsTCB2G70060</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="LoginWithNoDataTCB2G70063">LoginWithNoDataTCB2G70063</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminLogin" class="method navigator-link" hash-for-method="LoginWithNodataTCB2G70029">LoginWithNodataTCB2G70029</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="LoginWithValidCredentialsTCB2G70062">LoginWithValidCredentialsTCB2G70062</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="NavigateToHomePageTCB2G70065">NavigateToHomePageTCB2G70065</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassHomePageLinks" class="method navigator-link" hash-for-method="NavigateToLoginPageTCB2G70003">NavigateToLoginPageTCB2G70003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassHomePageLinks" class="method navigator-link" hash-for-method="NavigateToSignupPageTCB2G70004">NavigateToSignupPageTCB2G70004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogin" class="method navigator-link" hash-for-method="NavigateToSignupPageTCB2G70066">NavigateToSignupPageTCB2G70066</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminLogout" class="method navigator-link" hash-for-method="ValidateLogOutTCB2G70057">ValidateLogOutTCB2G70057</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminLogout" class="method navigator-link" hash-for-method="ValidateLoginAndOutAfterLogoutTCB2G70058">ValidateLoginAndOutAfterLogoutTCB2G70058</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminLogin" class="method navigator-link" hash-for-method="VerifyAdminLoginTCB2G70025">VerifyAdminLoginTCB2G70025</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyAlbhaTCB2G70051">VerifyAlbhaTCB2G70051</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateButtonTCB2G70043">VerifyAllocateButtonTCB2G70043</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageBatchIDTCB2G70046">VerifyAllocateTrainerPageBatchIDTCB2G70046</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageCourseTCB2G70045">VerifyAllocateTrainerPageCourseTCB2G70045</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageMeetingLinkTCB2G70049">VerifyAllocateTrainerPageMeetingLinkTCB2G70049</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageStartAndEndDateTCB2G70048">VerifyAllocateTrainerPageStartAndEndDateTCB2G70048</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageTCB2G70044">VerifyAllocateTrainerPageTCB2G70044</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageTime2TCB2G70047B">VerifyAllocateTrainerPageTime2TCB2G70047B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocateTrainer" class="method navigator-link" hash-for-method="VerifyAllocateTrainerPageTimeTCB2G70047A">VerifyAllocateTrainerPageTimeTCB2G70047A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyApproveButtonTCB2G70035">VerifyApproveButtonTCB2G70035</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyCharTCB2G70053">VerifyCharTCB2G70053</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyContentsTableTCB2G70030">VerifyContentsTableTCB2G70030</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyContentsTableTCB2G70033">VerifyContentsTableTCB2G70033</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyDataTCB2G70054">VerifyDataTCB2G70054</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyEditPersonalDetailsPageTCB2G70071B">VerifyEditPersonalDetailsPageTCB2G70071B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyEditPersonalDetailsPhotoTCB2G70072">VerifyEditPersonalDetailsPhotoTCB2G70072</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyEnteredDiffPassTCB2G70018">VerifyEnteredDiffPassTCB2G70018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyEnteredSamePassTCB2G70017">VerifyEnteredSamePassTCB2G70017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyFooterDisplayTCB2G70032">VerifyFooterDisplayTCB2G70032</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyFooterTCB2G70081">VerifyFooterTCB2G70081</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyInvalidEmailTCB2G70020">VerifyInvalidEmailTCB2G70020</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyInvalidNameTCB2G70022">VerifyInvalidNameTCB2G70022</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyInvalidPhoneTCB2G70015">VerifyInvalidPhoneTCB2G70015</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyInvalidPhoneUsingStringsTCB2G70016">VerifyInvalidPhoneUsingStringsTCB2G70016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminLogin" class="method navigator-link" hash-for-method="VerifyLoginWithInvaidDatasTCB2G70026">VerifyLoginWithInvaidDatasTCB2G70026</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyNumTCB2G70052">VerifyNumTCB2G70052</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyPageScrollingTCB2G70031">VerifyPageScrollingTCB2G70031</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyPasParameterTCB2G70086">VerifyPasParameterTCB2G70086</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAdminApproval" class="method navigator-link" hash-for-method="VerifyRejectButtonTCB2G70037">VerifyRejectButtonTCB2G70037</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyScrollbarTCB2G70078">VerifyScrollbarTCB2G70078</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyScrollbarTCB2G70080">VerifyScrollbarTCB2G70080</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyScrollingUsingKeyboardTCB2G70056">VerifyScrollingUsingKeyboardTCB2G70056</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassViewAllocation" class="method navigator-link" hash-for-method="VerifyScrollingUsingMouseTCB2G70055">VerifyScrollingUsingMouseTCB2G70055</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocate" class="method navigator-link" hash-for-method="VerifySearchBoxTCB2G70039">VerifySearchBoxTCB2G70039</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocate" class="method navigator-link" hash-for-method="VerifySearchDetailsTCB2G70040">VerifySearchDetailsTCB2G70040</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassAllocate" class="method navigator-link" hash-for-method="VerifySearchDetailsbyIdTCB2G70042">VerifySearchDetailsbyIdTCB2G70042</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifySignUPMenuTCB2G70011">VerifySignUPMenuTCB2G70011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifySignUpTCB2G70012">VerifySignUpTCB2G70012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile" class="method navigator-link" hash-for-method="VerifyTrainerAllocationDetailsPageTCB2G70074">VerifyTrainerAllocationDetailsPageTCB2G70074</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow" class="method navigator-link" hash-for-method="VerifyTrainerInformationTCB2G70068">VerifyTrainerInformationTCB2G70068</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogout" class="method navigator-link" hash-for-method="VerifyTrainerLoginAfterLoginTCB2G70085">VerifyTrainerLoginAfterLoginTCB2G70085</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerLogout" class="method navigator-link" hash-for-method="VerifyTrainerLogoutTCB2G70082">VerifyTrainerLogoutTCB2G70082</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyValidEmailTCB2G70019">VerifyValidEmailTCB2G70019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassSignup" class="method navigator-link" hash-for-method="VerifyValidNameTCB2G70021">VerifyValidNameTCB2G70021</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow" class="method navigator-link" hash-for-method="VerifyeditbuttonTCB2G70069">VerifyeditbuttonTCB2G70069</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPhotoDisplayTCB2G70070">
+                  </a> <!-- VerifyPhotoDisplayTCB2G70070 -->
+                  <span class="method-name">VerifyPhotoDisplayTCB2G70070</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;profile_img&apos;]&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jijos-Air.lan&apos;, ip: &apos;fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc022e514973fca00d02d56987f0f049
+*** Element info: {Using=xpath, value=//img[@class=&apos;profile_img&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow.VerifyPhotoDisplayTCB2G70070(TestClassTrainerInformationWindow.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCB2G70006_FaceBook">
+                  </a> <!-- TCB2G70006_FaceBook -->
+                  <span class="method-name">TCB2G70006_FaceBook</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (690, 3138)
+  (Session info: chrome=99.0.4844.51)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jijos-Air.lan&apos;, ip: &apos;fd49:6281:d0e1:0:1c3e:a2d2:fa9:4f80%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/1r/fcbkcqwx6qv...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a42818f244e54d0ee2b77cd15337b6af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.TrainerManagementSystem.pages.SocialMediaLinks.ClickFacebookLink(SocialMediaLinks.java:30)
+	at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_FaceBook(TestClassSocialMediaLinks.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCB2G70006_Instagram">
+                  </a> <!-- TCB2G70006_Instagram -->
+                  <span class="method-name">TCB2G70006_Instagram</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;https://trainermanagement.herokuapp.com/&gt; but was:&lt;https://www.instagram.com/?hl=en&gt;
+	at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_Instagram(TestClassSocialMediaLinks.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCB2G70006_Twitter">
+                  </a> <!-- TCB2G70006_Twitter -->
+                  <span class="method-name">TCB2G70006_Twitter</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;https://trainermanagement.herokuapp.com/&gt; but was:&lt;https://twitter.com/?lang=en&gt;
+	at com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks.TCB2G70006_Twitter(TestClassSocialMediaLinks.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassSignup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListCourseTCB2G70013">
+                  </a> <!-- ListCourseTCB2G70013 -->
+                  <span class="method-name">ListCourseTCB2G70013</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;6&gt;
+	at com.TrainerManagementSystem.scripts.TestClassSignup.ListCourseTCB2G70013(TestClassSignup.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignUpwithoutCourseTCB2G70023">
+                  </a> <!-- VerifySignUpwithoutCourseTCB2G70023 -->
+                  <span class="method-name">VerifySignUpwithoutCourseTCB2G70023</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at com.TrainerManagementSystem.scripts.TestClassSignup.VerifySignUpwithoutCourseTCB2G70023(TestClassSignup.java:269)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditPersonalDetailsPageTCB2G70071A">
+                  </a> <!-- VerifyEditPersonalDetailsPageTCB2G70071A -->
+                  <span class="method-name">VerifyEditPersonalDetailsPageTCB2G70071A</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile.VerifyEditPersonalDetailsPageTCB2G70071A(TestClassEditTrainerProfile.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAdminApproval</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyApproveWithoutEmpTypeTCB2G70034">
+                  </a> <!-- VerifyApproveWithoutEmpTypeTCB2G70034 -->
+                  <span class="method-name">VerifyApproveWithoutEmpTypeTCB2G70034</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at com.TrainerManagementSystem.scripts.TestClassAdminApproval.VerifyApproveWithoutEmpTypeTCB2G70034(TestClassAdminApproval.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTrainerLoginAfterLoginTCB2G70085">
+                  </a> <!-- VerifyTrainerLoginAfterLoginTCB2G70085 -->
+                  <span class="method-name">VerifyTrainerLoginAfterLoginTCB2G70085</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTrainerLogoutTCB2G70082">
+                  </a> <!-- VerifyTrainerLogoutTCB2G70082 -->
+                  <span class="method-name">VerifyTrainerLogoutTCB2G70082</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DisplayFooterTCB2G70067">
+                  </a> <!-- DisplayFooterTCB2G70067 -->
+                  <span class="method-name">DisplayFooterTCB2G70067</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLoginCredentialsTCB2G70060">
+                  </a> <!-- InvalidLoginCredentialsTCB2G70060 -->
+                  <span class="method-name">InvalidLoginCredentialsTCB2G70060</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithNoDataTCB2G70063">
+                  </a> <!-- LoginWithNoDataTCB2G70063 -->
+                  <span class="method-name">LoginWithNoDataTCB2G70063</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithValidCredentialsTCB2G70062">
+                  </a> <!-- LoginWithValidCredentialsTCB2G70062 -->
+                  <span class="method-name">LoginWithValidCredentialsTCB2G70062</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToHomePageTCB2G70065">
+                  </a> <!-- NavigateToHomePageTCB2G70065 -->
+                  <span class="method-name">NavigateToHomePageTCB2G70065</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSignupPageTCB2G70066">
+                  </a> <!-- NavigateToSignupPageTCB2G70066 -->
+                  <span class="method-name">NavigateToSignupPageTCB2G70066</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAllocate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchBoxTCB2G70039">
+                  </a> <!-- VerifySearchBoxTCB2G70039 -->
+                  <span class="method-name">VerifySearchBoxTCB2G70039</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchDetailsTCB2G70040">
+                  </a> <!-- VerifySearchDetailsTCB2G70040 -->
+                  <span class="method-name">VerifySearchDetailsTCB2G70040</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchDetailsbyIdTCB2G70042">
+                  </a> <!-- VerifySearchDetailsbyIdTCB2G70042 -->
+                  <span class="method-name">VerifySearchDetailsbyIdTCB2G70042</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassSignup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnteredDiffPassTCB2G70018">
+                  </a> <!-- VerifyEnteredDiffPassTCB2G70018 -->
+                  <span class="method-name">VerifyEnteredDiffPassTCB2G70018</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEnteredSamePassTCB2G70017">
+                  </a> <!-- VerifyEnteredSamePassTCB2G70017 -->
+                  <span class="method-name">VerifyEnteredSamePassTCB2G70017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidEmailTCB2G70020">
+                  </a> <!-- VerifyInvalidEmailTCB2G70020 -->
+                  <span class="method-name">VerifyInvalidEmailTCB2G70020</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidNameTCB2G70022">
+                  </a> <!-- VerifyInvalidNameTCB2G70022 -->
+                  <span class="method-name">VerifyInvalidNameTCB2G70022</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidPhoneTCB2G70015">
+                  </a> <!-- VerifyInvalidPhoneTCB2G70015 -->
+                  <span class="method-name">VerifyInvalidPhoneTCB2G70015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidPhoneUsingStringsTCB2G70016">
+                  </a> <!-- VerifyInvalidPhoneUsingStringsTCB2G70016 -->
+                  <span class="method-name">VerifyInvalidPhoneUsingStringsTCB2G70016</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPasParameterTCB2G70086">
+                  </a> <!-- VerifyPasParameterTCB2G70086 -->
+                  <span class="method-name">VerifyPasParameterTCB2G70086</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignUPMenuTCB2G70011">
+                  </a> <!-- VerifySignUPMenuTCB2G70011 -->
+                  <span class="method-name">VerifySignUPMenuTCB2G70011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignUpTCB2G70012">
+                  </a> <!-- VerifySignUpTCB2G70012 -->
+                  <span class="method-name">VerifySignUpTCB2G70012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyValidEmailTCB2G70019">
+                  </a> <!-- VerifyValidEmailTCB2G70019 -->
+                  <span class="method-name">VerifyValidEmailTCB2G70019</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyValidNameTCB2G70021">
+                  </a> <!-- VerifyValidNameTCB2G70021 -->
+                  <span class="method-name">VerifyValidNameTCB2G70021</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAdminApproval</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyApproveButtonTCB2G70035">
+                  </a> <!-- VerifyApproveButtonTCB2G70035 -->
+                  <span class="method-name">VerifyApproveButtonTCB2G70035</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyContentsTableTCB2G70030">
+                  </a> <!-- VerifyContentsTableTCB2G70030 -->
+                  <span class="method-name">VerifyContentsTableTCB2G70030</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyContentsTableTCB2G70033">
+                  </a> <!-- VerifyContentsTableTCB2G70033 -->
+                  <span class="method-name">VerifyContentsTableTCB2G70033</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFooterDisplayTCB2G70032">
+                  </a> <!-- VerifyFooterDisplayTCB2G70032 -->
+                  <span class="method-name">VerifyFooterDisplayTCB2G70032</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPageScrollingTCB2G70031">
+                  </a> <!-- VerifyPageScrollingTCB2G70031 -->
+                  <span class="method-name">VerifyPageScrollingTCB2G70031</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRejectButtonTCB2G70037">
+                  </a> <!-- VerifyRejectButtonTCB2G70037 -->
+                  <span class="method-name">VerifyRejectButtonTCB2G70037</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAlbhaTCB2G70051">
+                  </a> <!-- VerifyAlbhaTCB2G70051 -->
+                  <span class="method-name">VerifyAlbhaTCB2G70051</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCharTCB2G70053">
+                  </a> <!-- VerifyCharTCB2G70053 -->
+                  <span class="method-name">VerifyCharTCB2G70053</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDataTCB2G70054">
+                  </a> <!-- VerifyDataTCB2G70054 -->
+                  <span class="method-name">VerifyDataTCB2G70054</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNumTCB2G70052">
+                  </a> <!-- VerifyNumTCB2G70052 -->
+                  <span class="method-name">VerifyNumTCB2G70052</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyScrollingUsingKeyboardTCB2G70056">
+                  </a> <!-- VerifyScrollingUsingKeyboardTCB2G70056 -->
+                  <span class="method-name">VerifyScrollingUsingKeyboardTCB2G70056</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyScrollingUsingMouseTCB2G70055">
+                  </a> <!-- VerifyScrollingUsingMouseTCB2G70055 -->
+                  <span class="method-name">VerifyScrollingUsingMouseTCB2G70055</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithNodataTCB2G70029">
+                  </a> <!-- LoginWithNodataTCB2G70029 -->
+                  <span class="method-name">LoginWithNodataTCB2G70029</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminLoginTCB2G70025">
+                  </a> <!-- VerifyAdminLoginTCB2G70025 -->
+                  <span class="method-name">VerifyAdminLoginTCB2G70025</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithInvaidDatasTCB2G70026">
+                  </a> <!-- VerifyLoginWithInvaidDatasTCB2G70026 -->
+                  <span class="method-name">VerifyLoginWithInvaidDatasTCB2G70026</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTrainerInformationTCB2G70068">
+                  </a> <!-- VerifyTrainerInformationTCB2G70068 -->
+                  <span class="method-name">VerifyTrainerInformationTCB2G70068</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyeditbuttonTCB2G70069">
+                  </a> <!-- VerifyeditbuttonTCB2G70069 -->
+                  <span class="method-name">VerifyeditbuttonTCB2G70069</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLogOutTCB2G70057">
+                  </a> <!-- ValidateLogOutTCB2G70057 -->
+                  <span class="method-name">ValidateLogOutTCB2G70057</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginAndOutAfterLogoutTCB2G70058">
+                  </a> <!-- ValidateLoginAndOutAfterLogoutTCB2G70058 -->
+                  <span class="method-name">ValidateLoginAndOutAfterLogoutTCB2G70058</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassAllocateTrainer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateButtonTCB2G70043">
+                  </a> <!-- VerifyAllocateButtonTCB2G70043 -->
+                  <span class="method-name">VerifyAllocateButtonTCB2G70043</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageBatchIDTCB2G70046">
+                  </a> <!-- VerifyAllocateTrainerPageBatchIDTCB2G70046 -->
+                  <span class="method-name">VerifyAllocateTrainerPageBatchIDTCB2G70046</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageCourseTCB2G70045">
+                  </a> <!-- VerifyAllocateTrainerPageCourseTCB2G70045 -->
+                  <span class="method-name">VerifyAllocateTrainerPageCourseTCB2G70045</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageMeetingLinkTCB2G70049">
+                  </a> <!-- VerifyAllocateTrainerPageMeetingLinkTCB2G70049 -->
+                  <span class="method-name">VerifyAllocateTrainerPageMeetingLinkTCB2G70049</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageStartAndEndDateTCB2G70048">
+                  </a> <!-- VerifyAllocateTrainerPageStartAndEndDateTCB2G70048 -->
+                  <span class="method-name">VerifyAllocateTrainerPageStartAndEndDateTCB2G70048</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageTCB2G70044">
+                  </a> <!-- VerifyAllocateTrainerPageTCB2G70044 -->
+                  <span class="method-name">VerifyAllocateTrainerPageTCB2G70044</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageTime2TCB2G70047B">
+                  </a> <!-- VerifyAllocateTrainerPageTime2TCB2G70047B -->
+                  <span class="method-name">VerifyAllocateTrainerPageTime2TCB2G70047B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllocateTrainerPageTimeTCB2G70047A">
+                  </a> <!-- VerifyAllocateTrainerPageTimeTCB2G70047A -->
+                  <span class="method-name">VerifyAllocateTrainerPageTimeTCB2G70047A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditPersonalDetailsPageTCB2G70071B">
+                  </a> <!-- VerifyEditPersonalDetailsPageTCB2G70071B -->
+                  <span class="method-name">VerifyEditPersonalDetailsPageTCB2G70071B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEditPersonalDetailsPhotoTCB2G70072">
+                  </a> <!-- VerifyEditPersonalDetailsPhotoTCB2G70072 -->
+                  <span class="method-name">VerifyEditPersonalDetailsPhotoTCB2G70072</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFooterTCB2G70081">
+                  </a> <!-- VerifyFooterTCB2G70081 -->
+                  <span class="method-name">VerifyFooterTCB2G70081</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyScrollbarTCB2G70078">
+                  </a> <!-- VerifyScrollbarTCB2G70078 -->
+                  <span class="method-name">VerifyScrollbarTCB2G70078</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyScrollbarTCB2G70080">
+                  </a> <!-- VerifyScrollbarTCB2G70080 -->
+                  <span class="method-name">VerifyScrollbarTCB2G70080</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTrainerAllocationDetailsPageTCB2G70074">
+                  </a> <!-- VerifyTrainerAllocationDetailsPageTCB2G70074 -->
+                  <span class="method-name">VerifyTrainerAllocationDetailsPageTCB2G70074</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TrainerManagementSystem.scripts.TestClassHomePageLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckPageTitleTCB2G70001">
+                  </a> <!-- CheckPageTitleTCB2G70001 -->
+                  <span class="method-name">CheckPageTitleTCB2G70001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToLoginPageTCB2G70003">
+                  </a> <!-- NavigateToLoginPageTCB2G70003 -->
+                  <span class="method-name">NavigateToLoginPageTCB2G70003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSignupPageTCB2G70004">
+                  </a> <!-- NavigateToSignupPageTCB2G70004 -->
+                  <span class="method-name">NavigateToSignupPageTCB2G70004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/betsy/eclipse-workspace/TrainerManagementSystem/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassHomePageLinks&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassHomePageLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassHomePageLinks --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassSocialMediaLinks&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassSocialMediaLinks --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassSignup&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassSignup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassSignup --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassAdminLogin&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassAdminLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassAdminLogin --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassAdminApproval&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassAdminApproval&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassAdminApproval --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassAllocate&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassAllocate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassAllocate --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassAllocateTrainer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassAllocateTrainer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassAllocateTrainer --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassViewAllocation&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassViewAllocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassViewAllocation --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassAdminLogout&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassAdminLogout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassAdminLogout --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassTrainerLogin&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassTrainerLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassTrainerLogin --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassTrainerInformation&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassTrainerInformation --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassEditTrainerProfile&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassEditTrainerProfile --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestClassTrainerLogout&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TrainerManagementSystem.scripts.TestClassTrainerLogout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestClassTrainerLogout --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestClassHomePageLinks (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassSocialMediaLinks (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassSignup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassAdminLogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassAdminApproval (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassAllocate (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassAllocateTrainer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassViewAllocation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassAdminLogout (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassTrainerLogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassTrainerInformation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassEditTrainerProfile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestClassTrainerLogout (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(66);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyPhotoDisplayTCB2G70070')
+data.setCell(0, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow')
+data.setCell(0, 3, 63842);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyNumTCB2G70052')
+data.setCell(1, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(1, 3, 49131);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyEditPersonalDetailsPageTCB2G70071B')
+data.setCell(2, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(2, 3, 39471);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifySignUpwithoutCourseTCB2G70023')
+data.setCell(3, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(3, 3, 37132);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyCharTCB2G70053')
+data.setCell(4, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(4, 3, 36538);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyPasParameterTCB2G70086')
+data.setCell(5, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(5, 3, 35932);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'NavigateToHomePageTCB2G70065')
+data.setCell(6, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(6, 3, 35851);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyAdminLoginTCB2G70025')
+data.setCell(7, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminLogin')
+data.setCell(7, 3, 35172);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyDataTCB2G70054')
+data.setCell(8, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(8, 3, 35162);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyLoginWithInvaidDatasTCB2G70026')
+data.setCell(9, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminLogin')
+data.setCell(9, 3, 34521);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyTrainerAllocationDetailsPageTCB2G70074')
+data.setCell(10, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(10, 3, 34454);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyEnteredDiffPassTCB2G70018')
+data.setCell(11, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(11, 3, 34306);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyInvalidPhoneTCB2G70015')
+data.setCell(12, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(12, 3, 34193);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyInvalidPhoneUsingStringsTCB2G70016')
+data.setCell(13, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(13, 3, 34154);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyEnteredSamePassTCB2G70017')
+data.setCell(14, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(14, 3, 34077);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyInvalidEmailTCB2G70020')
+data.setCell(15, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(15, 3, 34068);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyInvalidNameTCB2G70022')
+data.setCell(16, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(16, 3, 33986);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ListCourseTCB2G70013')
+data.setCell(17, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(17, 3, 33973);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyValidEmailTCB2G70019')
+data.setCell(18, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(18, 3, 33931);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyValidNameTCB2G70021')
+data.setCell(19, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(19, 3, 33924);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'LoginWithNodataTCB2G70029')
+data.setCell(20, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminLogin')
+data.setCell(20, 3, 33875);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifySearchBoxTCB2G70039')
+data.setCell(21, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocate')
+data.setCell(21, 3, 33688);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ValidateLoginAndOutAfterLogoutTCB2G70058')
+data.setCell(22, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminLogout')
+data.setCell(22, 3, 13990);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifySignUpTCB2G70012')
+data.setCell(23, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(23, 3, 9129);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyAllocateTrainerPageMeetingLinkTCB2G70049')
+data.setCell(24, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(24, 3, 7657);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ValidateLogOutTCB2G70057')
+data.setCell(25, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminLogout')
+data.setCell(25, 3, 6571);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'InvalidLoginCredentialsTCB2G70060')
+data.setCell(26, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(26, 3, 6378);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TCB2G70006_Instagram')
+data.setCell(27, 2, 'com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks')
+data.setCell(27, 3, 6130);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TCB2G70006_Twitter')
+data.setCell(28, 2, 'com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks')
+data.setCell(28, 3, 6096);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'VerifyContentsTableTCB2G70030')
+data.setCell(29, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(29, 3, 5842);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifyAllocateButtonTCB2G70043')
+data.setCell(30, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(30, 3, 5550);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TCB2G70006_FaceBook')
+data.setCell(31, 2, 'com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks')
+data.setCell(31, 3, 3467);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'VerifyEditPersonalDetailsPhotoTCB2G70072')
+data.setCell(32, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(32, 3, 3216);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'LoginWithNoDataTCB2G70063')
+data.setCell(33, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(33, 3, 2657);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'VerifyScrollingUsingKeyboardTCB2G70056')
+data.setCell(34, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(34, 3, 2438);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'VerifyTrainerLoginAfterLoginTCB2G70085')
+data.setCell(35, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogout')
+data.setCell(35, 3, 2272);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'NavigateToSignupPageTCB2G70066')
+data.setCell(36, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(36, 3, 2215);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'LoginWithValidCredentialsTCB2G70062')
+data.setCell(37, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(37, 3, 1708);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'VerifyAlbhaTCB2G70051')
+data.setCell(38, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(38, 3, 1355);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'DisplayFooterTCB2G70067')
+data.setCell(39, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogin')
+data.setCell(39, 3, 1314);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'VerifyTrainerLogoutTCB2G70082')
+data.setCell(40, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerLogout')
+data.setCell(40, 3, 1311);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'VerifyTrainerInformationTCB2G70068')
+data.setCell(41, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow')
+data.setCell(41, 3, 1211);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'VerifyAllocateTrainerPageCourseTCB2G70045')
+data.setCell(42, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(42, 3, 919);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'VerifyEditPersonalDetailsPageTCB2G70071A')
+data.setCell(43, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(43, 3, 641);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'VerifyAllocateTrainerPageBatchIDTCB2G70046')
+data.setCell(44, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(44, 3, 478);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'VerifyAllocateTrainerPageStartAndEndDateTCB2G70048')
+data.setCell(45, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(45, 3, 469);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'VerifyScrollingUsingMouseTCB2G70055')
+data.setCell(46, 2, 'com.TrainerManagementSystem.scripts.TestClassViewAllocation')
+data.setCell(46, 3, 462);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'NavigateToSignupPageTCB2G70004')
+data.setCell(47, 2, 'com.TrainerManagementSystem.scripts.TestClassHomePageLinks')
+data.setCell(47, 3, 440);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'VerifySignUPMenuTCB2G70011')
+data.setCell(48, 2, 'com.TrainerManagementSystem.scripts.TestClassSignup')
+data.setCell(48, 3, 404);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'VerifyFooterTCB2G70081')
+data.setCell(49, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(49, 3, 382);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'VerifyContentsTableTCB2G70033')
+data.setCell(50, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(50, 3, 323);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'VerifyApproveButtonTCB2G70035')
+data.setCell(51, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(51, 3, 312);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'VerifyApproveWithoutEmpTypeTCB2G70034')
+data.setCell(52, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(52, 3, 309);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'VerifyAllocateTrainerPageTime2TCB2G70047B')
+data.setCell(53, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(53, 3, 237);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'NavigateToLoginPageTCB2G70003')
+data.setCell(54, 2, 'com.TrainerManagementSystem.scripts.TestClassHomePageLinks')
+data.setCell(54, 3, 230);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'VerifySearchDetailsTCB2G70040')
+data.setCell(55, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocate')
+data.setCell(55, 3, 216);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'VerifySearchDetailsbyIdTCB2G70042')
+data.setCell(56, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocate')
+data.setCell(56, 3, 212);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'VerifyRejectButtonTCB2G70037')
+data.setCell(57, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(57, 3, 175);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'VerifyeditbuttonTCB2G70069')
+data.setCell(58, 2, 'com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow')
+data.setCell(58, 3, 166);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'VerifyAllocateTrainerPageTimeTCB2G70047A')
+data.setCell(59, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(59, 3, 153);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'VerifyAllocateTrainerPageTCB2G70044')
+data.setCell(60, 2, 'com.TrainerManagementSystem.scripts.TestClassAllocateTrainer')
+data.setCell(60, 3, 135);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'VerifyPageScrollingTCB2G70031')
+data.setCell(61, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(61, 3, 100);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'CheckPageTitleTCB2G70001')
+data.setCell(62, 2, 'com.TrainerManagementSystem.scripts.TestClassHomePageLinks')
+data.setCell(62, 3, 87);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'VerifyFooterDisplayTCB2G70032')
+data.setCell(63, 2, 'com.TrainerManagementSystem.scripts.TestClassAdminApproval')
+data.setCell(63, 3, 68);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'VerifyScrollbarTCB2G70078')
+data.setCell(64, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(64, 3, 20);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'VerifyScrollbarTCB2G70080')
+data.setCell(65, 2, 'com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile')
+data.setCell(65, 3, 16);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassHomePageLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassHomePageLinks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckPageTitleTCB2G70001</span>
+                <span class="method-start">42275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CheckPageTitleTCB2G70001 status=SUCCESS method=TestClassHomePageLinks.CheckPageTitl...)</span>
+                <span class="method-start">42367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">NavigateToLoginPageTCB2G70003</span>
+                <span class="method-start">42378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=NavigateToLoginPageTCB2G70003 status=SUCCESS method=TestClassHomePageLinks.Navigate...)</span>
+                <span class="method-start">42610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSignupPageTCB2G70004</span>
+                <span class="method-start">42611 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ValidateSocialMediaLinksTCB2G70006</span>
+                <span class="method-start">42887 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassHomePageLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=NavigateToSignupPageTCB2G70004 status=SUCCESS method=TestClassHomePageLinks.Navigat...)</span>
+                <span class="method-start">43053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">43054 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">43343 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSocialMediaLinks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TCB2G70006_FaceBook</span>
+                <span class="method-start">44912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TCB2G70006_FaceBook status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_Face...)</span>
+                <span class="method-start">48388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TCB2G70006_Instagram</span>
+                <span class="method-start">50448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TCB2G70006_Instagram status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_Ins...)</span>
+                <span class="method-start">56579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TCB2G70006_Twitter</span>
+                <span class="method-start">57821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TCB2G70006_Twitter status=FAILURE method=TestClassSocialMediaLinks.TCB2G70006_Twitt...)</span>
+                <span class="method-start">63918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">65062 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">65279 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySignUPMenuTCB2G70011</span>
+                <span class="method-start">81714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySignUPMenuTCB2G70011 status=SUCCESS method=TestClassSignup.VerifySignUPMenuTC...)</span>
+                <span class="method-start">82119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifySignUpTCB2G70012</span>
+                <span class="method-start">82120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySignUpTCB2G70012 status=SUCCESS method=TestClassSignup.VerifySignUpTCB2G70012...)</span>
+                <span class="method-start">91251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifySignUpwithoutCourseTCB2G70023</span>
+                <span class="method-start">91252 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminLoginTCB2G70025</span>
+                <span class="method-start">104270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySignUpwithoutCourseTCB2G70023 status=FAILURE method=TestClassSignup.VerifySig...)</span>
+                <span class="method-start">128394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyValidNameTCB2G70021</span>
+                <span class="method-start">128881 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithInvaidDatasTCB2G70026</span>
+                <span class="method-start">139443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAdminLoginTCB2G70025 status=SUCCESS method=TestClassAdminLogin.VerifyAdminLog...)</span>
+                <span class="method-start">139443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyValidNameTCB2G70021 status=SUCCESS method=TestClassSignup.VerifyValidNameTCB2...)</span>
+                <span class="method-start">162806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidNameTCB2G70022</span>
+                <span class="method-start">162808 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyLoginWithInvaidDatasTCB2G70026 status=SUCCESS method=TestClassAdminLogin.Veri...)</span>
+                <span class="method-start">173964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWithNodataTCB2G70029</span>
+                <span class="method-start">173965 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyInvalidNameTCB2G70022 status=SUCCESS method=TestClassSignup.VerifyInvalidName...)</span>
+                <span class="method-start">196795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidPhoneUsingStringsTCB2G70016</span>
+                <span class="method-start">196796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginWithNodataTCB2G70029 status=SUCCESS method=TestClassAdminLogin.LoginWithNodata...)</span>
+                <span class="method-start">207841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">207842 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminApproval</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">208001 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyInvalidPhoneUsingStringsTCB2G70016 status=SUCCESS method=TestClassSignup.Veri...)</span>
+                <span class="method-start">230952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidPhoneTCB2G70015</span>
+                <span class="method-start">230953 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminApproval</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">login</span>
+                <span class="method-start">246321 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyInvalidPhoneTCB2G70015 status=SUCCESS method=TestClassSignup.VerifyInvalidPho...)</span>
+                <span class="method-start">265148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyInvalidEmailTCB2G70020</span>
+                <span class="method-start">265156 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminApproval</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyContentsTableTCB2G70030</span>
+                <span class="method-start">280602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyContentsTableTCB2G70030 status=SUCCESS method=TestClassAdminApproval.VerifyCo...)</span>
+                <span class="method-start">286444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyFooterDisplayTCB2G70032</span>
+                <span class="method-start">286445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyFooterDisplayTCB2G70032 status=SUCCESS method=TestClassAdminApproval.VerifyFo...)</span>
+                <span class="method-start">286513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyContentsTableTCB2G70033</span>
+                <span class="method-start">286514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyContentsTableTCB2G70033 status=SUCCESS method=TestClassAdminApproval.VerifyCo...)</span>
+                <span class="method-start">286837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyApproveButtonTCB2G70035</span>
+                <span class="method-start">286838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyApproveButtonTCB2G70035 status=SUCCESS method=TestClassAdminApproval.VerifyAp...)</span>
+                <span class="method-start">287151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyApproveWithoutEmpTypeTCB2G70034</span>
+                <span class="method-start">287152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyApproveWithoutEmpTypeTCB2G70034 status=FAILURE method=TestClassAdminApproval....)</span>
+                <span class="method-start">287463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyRejectButtonTCB2G70037</span>
+                <span class="method-start">287973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyRejectButtonTCB2G70037 status=SUCCESS method=TestClassAdminApproval.VerifyRej...)</span>
+                <span class="method-start">288149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyPageScrollingTCB2G70031</span>
+                <span class="method-start">288150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyPageScrollingTCB2G70031 status=SUCCESS method=TestClassAdminApproval.VerifyPa...)</span>
+                <span class="method-start">288251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">288252 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">288556 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyInvalidEmailTCB2G70020 status=SUCCESS method=TestClassSignup.VerifyInvalidEma...)</span>
+                <span class="method-start">299225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyValidEmailTCB2G70019</span>
+                <span class="method-start">299226 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">login</span>
+                <span class="method-start">327087 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyValidEmailTCB2G70019 status=SUCCESS method=TestClassSignup.VerifyValidEmailTC...)</span>
+                <span class="method-start">333158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyPasParameterTCB2G70086</span>
+                <span class="method-start">333159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchBoxTCB2G70039</span>
+                <span class="method-start">361036 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyPasParameterTCB2G70086 status=SUCCESS method=TestClassSignup.VerifyPasParamet...)</span>
+                <span class="method-start">369091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnteredSamePassTCB2G70017</span>
+                <span class="method-start">369092 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocate</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySearchBoxTCB2G70039 status=SUCCESS method=TestClassAllocate.VerifySearchBoxTC...)</span>
+                <span class="method-start">394725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchDetailsTCB2G70040</span>
+                <span class="method-start">394725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySearchDetailsTCB2G70040 status=SUCCESS method=TestClassAllocate.VerifySearchD...)</span>
+                <span class="method-start">394941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchDetailsbyIdTCB2G70042</span>
+                <span class="method-start">394942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifySearchDetailsbyIdTCB2G70042 status=SUCCESS method=TestClassAllocate.VerifySea...)</span>
+                <span class="method-start">395155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">395156 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocateTrainer</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">395403 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyEnteredSamePassTCB2G70017 status=SUCCESS method=TestClassSignup.VerifyEntered...)</span>
+                <span class="method-start">403170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyEnteredDiffPassTCB2G70018</span>
+                <span class="method-start">403171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocateTrainer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateButtonTCB2G70043</span>
+                <span class="method-start">434388 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyEnteredDiffPassTCB2G70018 status=SUCCESS method=TestClassSignup.VerifyEntered...)</span>
+                <span class="method-start">437478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ListCourseTCB2G70013</span>
+                <span class="method-start">437480 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAllocateTrainer</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateButtonTCB2G70043 status=SUCCESS method=TestClassAllocateTrainer.Verif...)</span>
+                <span class="method-start">439939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageTCB2G70044</span>
+                <span class="method-start">439940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageTCB2G70044 status=SUCCESS method=TestClassAllocateTrainer....)</span>
+                <span class="method-start">440075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageCourseTCB2G70045</span>
+                <span class="method-start">440076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageCourseTCB2G70045 status=SUCCESS method=TestClassAllocateTr...)</span>
+                <span class="method-start">440996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageBatchIDTCB2G70046</span>
+                <span class="method-start">440996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageBatchIDTCB2G70046 status=SUCCESS method=TestClassAllocateT...)</span>
+                <span class="method-start">441475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageTimeTCB2G70047A</span>
+                <span class="method-start">441476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageTimeTCB2G70047A status=SUCCESS method=TestClassAllocateTra...)</span>
+                <span class="method-start">441630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageTime2TCB2G70047B</span>
+                <span class="method-start">441631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageTime2TCB2G70047B status=SUCCESS method=TestClassAllocateTr...)</span>
+                <span class="method-start">441869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageStartAndEndDateTCB2G70048</span>
+                <span class="method-start">441870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageStartAndEndDateTCB2G70048 status=SUCCESS method=TestClassA...)</span>
+                <span class="method-start">442340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllocateTrainerPageMeetingLinkTCB2G70049</span>
+                <span class="method-start">442340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">449999 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAllocateTrainerPageMeetingLinkTCB2G70049 status=SUCCESS method=TestClassAlloc...)</span>
+                <span class="method-start">449999 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">450200 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassSignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ListCourseTCB2G70013 status=FAILURE method=TestClassSignup.ListCourseTCB2G70013()[p...)</span>
+                <span class="method-start">471454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">472161 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">472511 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAlbhaTCB2G70051</span>
+                <span class="method-start">488284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyAlbhaTCB2G70051 status=SUCCESS method=TestClassViewAllocation.VerifyAlbhaTCB2...)</span>
+                <span class="method-start">489640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyNumTCB2G70052</span>
+                <span class="method-start">489641 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassAdminLogout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ValidateLogOutTCB2G70057</span>
+                <span class="method-start">510411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ValidateLogOutTCB2G70057 status=SUCCESS method=TestClassAdminLogout.ValidateLogOutT...)</span>
+                <span class="method-start">516983 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginAndOutAfterLogoutTCB2G70058</span>
+                <span class="method-start">516984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ValidateLoginAndOutAfterLogoutTCB2G70058 status=SUCCESS method=TestClassAdminLogout...)</span>
+                <span class="method-start">530982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">530986 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">531249 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyNumTCB2G70052 status=SUCCESS method=TestClassViewAllocation.VerifyNumTCB2G700...)</span>
+                <span class="method-start">538772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyCharTCB2G70053</span>
+                <span class="method-start">538774 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">570611 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DisplayFooterTCB2G70067</span>
+                <span class="method-start">570871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DisplayFooterTCB2G70067 status=SUCCESS method=TestClassTrainerLogin.DisplayFooterTC...)</span>
+                <span class="method-start">572185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWithNoDataTCB2G70063</span>
+                <span class="method-start">572186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginWithNoDataTCB2G70063 status=SUCCESS method=TestClassTrainerLogin.LoginWithNoDa...)</span>
+                <span class="method-start">574844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSignupPageTCB2G70066</span>
+                <span class="method-start">574845 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyCharTCB2G70053 status=SUCCESS method=TestClassViewAllocation.VerifyCharTCB2G7...)</span>
+                <span class="method-start">575313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyDataTCB2G70054</span>
+                <span class="method-start">575314 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=NavigateToSignupPageTCB2G70066 status=SUCCESS method=TestClassTrainerLogin.Navigate...)</span>
+                <span class="method-start">577061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">NavigateToHomePageTCB2G70065</span>
+                <span class="method-start">577061 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyDataTCB2G70054 status=SUCCESS method=TestClassViewAllocation.VerifyDataTCB2G7...)</span>
+                <span class="method-start">610486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyScrollingUsingMouseTCB2G70055</span>
+                <span class="method-start">610493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyScrollingUsingMouseTCB2G70055 status=SUCCESS method=TestClassViewAllocation.V...)</span>
+                <span class="method-start">610956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyScrollingUsingKeyboardTCB2G70056</span>
+                <span class="method-start">610958 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=NavigateToHomePageTCB2G70065 status=SUCCESS method=TestClassTrainerLogin.NavigateTo...)</span>
+                <span class="method-start">612913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">InvalidLoginCredentialsTCB2G70060</span>
+                <span class="method-start">612914 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassViewAllocation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyScrollingUsingKeyboardTCB2G70056 status=SUCCESS method=TestClassViewAllocatio...)</span>
+                <span class="method-start">613398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">613399 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">613642 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=InvalidLoginCredentialsTCB2G70060 status=SUCCESS method=TestClassTrainerLogin.Inval...)</span>
+                <span class="method-start">619293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWithValidCredentialsTCB2G70062</span>
+                <span class="method-start">619294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LoginWithValidCredentialsTCB2G70062 status=SUCCESS method=TestClassTrainerLogin.Log...)</span>
+                <span class="method-start">621002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">621003 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">621292 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyTrainerInformationTCB2G70068</span>
+                <span class="method-start">652715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTrainerInformationTCB2G70068 status=SUCCESS method=TestClassTrainerInformatio...)</span>
+                <span class="method-start">653926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyeditbuttonTCB2G70069</span>
+                <span class="method-start">653927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyeditbuttonTCB2G70069 status=SUCCESS method=TestClassTrainerInformationWindow....)</span>
+                <span class="method-start">654094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyPhotoDisplayTCB2G70070</span>
+                <span class="method-start">654095 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">TrainerLogin</span>
+                <span class="method-start">659235 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyEditPersonalDetailsPageTCB2G70071A</span>
+                <span class="method-start">659865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyEditPersonalDetailsPageTCB2G70071A status=FAILURE method=TestClassEditTrainer...)</span>
+                <span class="method-start">660508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditPersonalDetailsPageTCB2G70071B</span>
+                <span class="method-start">660930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyEditPersonalDetailsPageTCB2G70071B status=SUCCESS method=TestClassEditTrainer...)</span>
+                <span class="method-start">700401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyEditPersonalDetailsPhotoTCB2G70072</span>
+                <span class="method-start">700402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyEditPersonalDetailsPhotoTCB2G70072 status=SUCCESS method=TestClassEditTrainer...)</span>
+                <span class="method-start">703618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyTrainerAllocationDetailsPageTCB2G70074</span>
+                <span class="method-start">703619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerInformationWindow</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyPhotoDisplayTCB2G70070 status=FAILURE method=TestClassTrainerInformationWindo...)</span>
+                <span class="method-start">717938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">718865 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">719168 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassEditTrainerProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTrainerAllocationDetailsPageTCB2G70074 status=SUCCESS method=TestClassEditTra...)</span>
+                <span class="method-start">738078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyScrollbarTCB2G70078</span>
+                <span class="method-start">738080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyScrollbarTCB2G70078 status=SUCCESS method=TestClassEditTrainerProfile.VerifyS...)</span>
+                <span class="method-start">738101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyScrollbarTCB2G70080</span>
+                <span class="method-start">738102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyScrollbarTCB2G70080 status=SUCCESS method=TestClassEditTrainerProfile.VerifyS...)</span>
+                <span class="method-start">738119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyFooterTCB2G70081</span>
+                <span class="method-start">738120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyFooterTCB2G70081 status=SUCCESS method=TestClassEditTrainerProfile.VerifyFoot...)</span>
+                <span class="method-start">738504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">738507 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TrainerManagementSystem.scripts.TestClassTrainerLogout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyTrainerLogoutTCB2G70082</span>
+                <span class="method-start">758005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTrainerLogoutTCB2G70082 status=SUCCESS method=TestClassTrainerLogout.VerifyTr...)</span>
+                <span class="method-start">759316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyTrainerLoginAfterLoginTCB2G70085</span>
+                <span class="method-start">759317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyTrainerLoginAfterLoginTCB2G70085 status=SUCCESS method=TestClassTrainerLogout...)</span>
+                <span class="method-start">761590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">761590 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
